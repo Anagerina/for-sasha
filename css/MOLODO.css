@@ -1,0 +1,258 @@
+
+/*Обнуление*/
+*{padding: 0;
+	margin: 0;
+	border: 0;}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+
+.wrapper{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.content{
+	flex: 1 1 auto;
+
+}
+
+a{
+	color: black;
+} 
+
+
+.container{
+	max-width: 1190px;
+	margin: 0 auto;
+}
+
+.header__row{
+	display: flex;
+	align-items: center;
+
+}
+
+.header__block-1{
+	font-size: 50px;
+	text-transform: uppercase;
+	width: 390px;
+}
+
+.header__block-2{
+	font-size: 30px;
+	text-transform: uppercase;
+	width: 390px;
+}
+
+.header__block-3 p:nth-child(1){
+	font-size: 110px;
+	text-transform: uppercase;
+	width: 390px;
+}
+
+.header__block-3 p:nth-child(2), .header__block-3 p:nth-child(3) {
+	font-size: 50px;
+	line-height: 55px;
+	width: 390px;
+}
+
+.logo__item{
+	font-size: 270px;
+	max-width: 1190px;
+}
+
+.lines__block{
+	max-width: 1190px;
+	height: 50px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.cards__row{
+	display: flex;
+	justify-content: space-between;
+	padding: 45px 0 102px 0;
+
+}
+.cards__item{
+	width: 390px;
+}
+
+.cards__img{
+	width: 390px;
+}
+
+.cards__desc{
+	font-family: 'Arial';
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+
+.scroll__row{
+	display: flex;
+	align-items: center;
+
+}
+
+.skroll__high-img{
+	width: 590px;
+}
+
+.scroll__right-arrow{
+	width: 105px;
+	padding-left: 8px;
+}
+.scroll__img{
+	width: 90px;
+	margin: 0 auto;
+}
+
+.scroll__column{
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: none;
+	align-content: space-between;
+}
+
+.column__title{
+	font-family: 'Lora';
+	font-size: 50px;
+}
+
+.column__card{
+margin-left: 100px;
+}
+.cards__img_thin{}
+.card__desc_thin{
+	font-family: 'Arial';
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+
+.menu-stroke__row{
+	padding-top: 90px;
+	width: 690px;
+}
+.menu-stroke__1{
+	display: flex;
+	height: 50px;
+	align-items: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.menu-stroke__2{
+margin-top: -1px;
+}
+
+.menu-stroke__item{
+	font-family: 'Lora';
+	font-size: 30px;
+	padding-right: 30px;
+}
+
+.jewerly__whole-block{
+	padding-top: 100px;
+	display: flex;
+	height: 880px;
+}
+.jewerly__desc{
+	font-family: 'Arial';
+	font-size: 20px;
+	text-transform: uppercase;
+	height: 75px;
+	padding-top: 8px;
+}
+.jewerly__block-1{
+	align-self: flex-end;
+}
+.jewerly__block-2{
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 390px;
+}
+
+.jewerly__title p:nth-child(1){
+	font-family: 'Lora';
+	font-size: 50px;
+	padding-bottom: 15px;
+}
+
+.jewerly__title p:nth-child(2){
+	font-family: 'Arial';
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.jewerly__block-3{
+	padding: 0 0 0 110px;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
